@@ -42,6 +42,9 @@ function saveBookmark(e){
 
     }
 
+    // Clear form
+    document.getElementById("myForm").reset();
+    
     // Re-fetch bookmarks
     fetchBookmarks();
 
